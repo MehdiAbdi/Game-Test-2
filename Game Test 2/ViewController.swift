@@ -66,7 +66,7 @@ class ViewController: UIViewController {
     
     @objc
     func btnAction() {
-        print("Daaaaaaaamn")
+        print("It's Working")
     }
 }
 
