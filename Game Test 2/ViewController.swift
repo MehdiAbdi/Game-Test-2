@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         btn.addTarget(self, action: #selector(btnAction), for: .touchUpInside)
         
         view.addSubview(btn)
-        btn.frame = CGRect(x: 150, y: 100, width: 200, height: 100)
+        btn.frame = CGRect(x: 150, y: 100, width: 300, height: 200)
         
     }
     
