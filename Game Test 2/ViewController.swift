@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .purple
+        view.backgroundColor = .black
         
         let scene = SCNScene(named: "art.scnassets/ship.scn")
         
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         
         let btn: UIButton = {
             let button = UIButton()
-            button.backgroundColor = .black
+            button.backgroundColor = .blue
             button.setTitle("WOOOW", for: .normal)
             return button
         }()
